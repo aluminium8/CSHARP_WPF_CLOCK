@@ -154,8 +154,8 @@ namespace clock_cSharp
             h_hand.Y2 = analog_center.Y - Math.Sin(Math.PI / 2 - 2 * Math.PI * ((dt.Hour / 12.0) + dt.Minute / (60.0 * 12.0))) * analogclock_size / 3;
             m_hand.X2 = analog_center.X + Math.Cos(Math.PI / 2 - 2 * Math.PI * (dt.Minute / 60.0))* analogclock_size / 2.5;
             m_hand.Y2 = analog_center.Y - Math.Sin(Math.PI / 2 - 2 * Math.PI * (dt.Minute / 60.0))* analogclock_size / 2.5;
-            s_hand.X2 = analog_center.X + Math.Cos(Math.PI / 2 - 2 * Math.PI * (dt.Second / 60.0))* analogclock_size / 2.1;
-            s_hand.Y2 = analog_center.Y - Math.Sin(Math.PI / 2 - 2 * Math.PI * (dt.Second / 60.0)) * analogclock_size / 2.1;
+            s_hand.X2 = analog_center.X + Math.Cos(Math.PI / 2 - 2 * Math.PI * (dt.Second / 60.0))* analogclock_size / 2.11;
+            s_hand.Y2 = analog_center.Y - Math.Sin(Math.PI / 2 - 2 * Math.PI * (dt.Second / 60.0)) * analogclock_size / 2.11;
 
             h_hand.Stroke = mySolidColorBrush_hhand;
             m_hand.Stroke = mySolidColorBrush_mhand;
