@@ -17,7 +17,7 @@ C#で作った時計です．動作環境はwindows10となります．
 ご了承ください．
 
 ## インストール
-{clock_cSharp\publish} 
+{clock_cSharp\publish.zip} 
 の中身のファイルを，使いやすい場所に移動してください.
 
 clock_cSharp.exeが起動ファイルです．
